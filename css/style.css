@@ -16,17 +16,37 @@ body{
     
 }
 
-
-header{
-    width: 300px;
-    height: 1rem;
-    margin: 0;
-    padding: 0;
-
-        
+#img_1{
+    float: right;
+    margin-left: 265px;
+}
+#img_2{
+    float: left;
+    margin-right: 59px;
 }
 
+ul{
+    float: right;
+    position: relative;
+    top:-180px;
+    margin-right:406px;
+    background-color: red;
+    background-position: center;
+    padding-right: 50px;
 
+    
+}
+li{
+    border-left: 2px solid black;
+    text-transform: uppercase;
+    font-size: 22px;
+    font-weight: normal;
+    line-height: 20px;
+    letter-spacing: .2rem;
+    display: inline-block;
+    
+    
+}
 
 button{
     
@@ -43,32 +63,6 @@ button{
 
 }
 
-
-
-
-
-#info{
-    float: left;
-    margin-left: 5px;
-    background-color: red;
-    text-decoration-color: white;
-    padding: 10px;
-    opacity: .5;
-    text-align: center;
-    box-sizing: border-box;
-    display: inline-block;
-    
-}
-
-li{
-    margin: 1px;
-    padding: 10px;
-    width: auto;
-    height: 1rem;
-    display: inline-block;
-    text-transform: uppercase;    
-    
-}
 section{
     margin: 0;
     padding: 0;
