@@ -54,6 +54,11 @@ nav > ul > li{
     
 }
 
+.fdate{
+    display: inline;
+    
+}
+
 button{
     background-color: #8E3B3B;
     width: 115px;
