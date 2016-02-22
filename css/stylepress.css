@@ -1,81 +1,79 @@
-body{
-    margin: 4em;
+html, body{
+    margin: 0 auto;
     padding: 0;
-    font-size: 75.5%;
-    box-sizing: border-box;
-    border-color: red;
-    height: auto;
     width: 100%;
-    background-color: #ffffff;
-    text-decoration-color: #000000;
+    height: 100%;
     
 }
 
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    font-family: cursive;
+    font-size: 85.2%;
+        
+}
 
 header{
-    margin: 1em;
-    height: 3em;
     width: 100%;
-    text-align: center;
-    font-size: 22px;
-    font-weight: normal;
-    background-color: red; 
-    box-sizing: border-box;
-    
-    
+    background-color: #8E3B3B;
+    height: 15em;
+    margin: auto 0;
 }
 
-
-main{
-    height:900px;
-    width: 100%;
-    
+a{
+    text-decoration: none;
+    color: #ffffff;
 }
 
-
+    
 #img_1{
     float: right;
-    margin-left: 240px;
-    border: solid 10px;
-    
+    margin-left: 265px;
 }
-
 
 #img_2{
     float: left;
-    margin-right: 30px;
-    border: solid 10px;
+    margin-right: 59px;
 }
 
-ul{
-    float: right;
-    position: relative;
-    top:-180px;
-    margin-right:406px;
-    background-color: red;
-    background-position: center;
-    
-
-    
-}
-li{
-    border: 2px solid black;
-    text-transform: uppercase;
-    font-size: 22px;
-    font-weight: normal;
-    line-height: 20px;
-    letter-spacing: .2rem;
+nav > ul > li{
+    background-color: #8E3B3B;
+    text-decoration-color: #ffffff;
     display: inline-block;
+    padding-left: 165px;
+    width: 25%;
+    height: 25%;
+    line-height: inherit;
+    font-size: 22px;
+    text-align: center;
+    margin-right: 30px;
+    
     
 }
 
+button{
+    background-color: #8E3B3B;
+    width: 115px;
+    height: 50px;
+}
+
+social{
+    color: white;
+}
 
 footer{
-    margin: 0;
+    
+    margin: 10px;
+    padding: 10px;
+    height: 1rem;
+    width: 100%;
     display: inline-block;
-    
-    
 }
+
+
 
 
 
