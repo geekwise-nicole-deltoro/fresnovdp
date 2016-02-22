@@ -54,29 +54,11 @@ nav > ul > li{
     
     
 }
-    
-    
 
-.about{
-    width: 99%;
-    float: right;
-    box-sizing: border-box;
-    background-color: red;
-    border: solid 3px; 
-    margin: 0;
-    display: inline;
-    
+img.floatLeft { 
+    float: left; 
+    margin: 4px; 
 }
-div{
-    float: left;
-    width: 50%;
-    width: calc(100%/2);
-}
-.info{
-   float: right;
-    width: 50%;
-    width: calc(100%/2); 
-    text-align: center;}
     
 button{
     background-color: #8E3B3B;
