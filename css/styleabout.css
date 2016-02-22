@@ -20,7 +20,6 @@ header{
     width: 100%;
     background-color: #8E3B3B;
     height: 15em;
-    text-align: center;
     margin: auto 0;
 }
 
@@ -57,18 +56,16 @@ nav > ul > li{
 
 img.floatLeft { 
     float: left; 
-    margin: 4px; 
+    margin: 3px; 
 }
     
 button{
     background-color: #8E3B3B;
     width: 115px;
     height: 50px;
-    
-    
 }
 
-#social{
+social{
     color: white;
 }
 
