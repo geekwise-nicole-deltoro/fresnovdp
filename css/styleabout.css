@@ -1,58 +1,62 @@
-body{
-    margin: 0;
+html, body{
+    margin: 0 auto;
     padding: 0;
-    height: 100%;
     width: 100%;
-    background: white;
-    text-decoration-color: #000000;
-    border-style: solid #000000;
-    font-size: 75.5%;
+    height: 100%;
     
 }
 
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    font-family: cursive;
+    font-size: 62.5%
+        
+}
+
 header{
-    text-align: center;
-    font-size: 22px;
-    font-weight: normal;
-    color: #962221;
-}
-main{
-    height:900px;
     width: 100%;
-    
-    
+    background-color: #8E3B3B;
+    height: 15em;
+    text-align: center;
+    margin: auto 0;
 }
+
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+    
 #img_1{
     float: right;
     margin-left: 265px;
 }
+
 #img_2{
     float: left;
     margin-right: 59px;
 }
 
-ul{
-    float: right;
-    position: relative;
-    top:-180px;
-    margin-right:406px;
-    background-color: red;
-    background-position: center;
-    padding-right: 50px;
-
-    
-}
-li{
-    border-left: 2px solid black;
-    text-transform: uppercase;
-    font-size: 22px;
-    font-weight: normal;
-    line-height: 20px;
-    letter-spacing: .2rem;
+nav > ul > li{
+    background-color: #8E3B3B;
+    text-decoration-color: #ffffff;
     display: inline-block;
+    padding-left: 165px;
+    width: 25%;
+    height: 25%;
+    line-height: inherit;
+    font-size: 22px;
+    text-align: center;
+    margin-right: 30px;
     
     
 }
+    
+    
+
 .about{
     width: 99%;
     float: right;
@@ -72,13 +76,27 @@ div{
    float: right;
     width: 50%;
     width: calc(100%/2); 
-    text-align: center;
+    text-align: center;}
+    
+button{
+    background-color: #8E3B3B;
+    width: 115px;
+    height: 50px;
+    
+    
+}
+
+#social{
+    color: white;
 }
 
 footer{
-    margin: 0;
-    display: inline-block;
     
+    margin: 10px;
+    padding: 10px;
+    height: 1rem;
+    width: 100%;
+    display: inline-block;
 }
 
 
