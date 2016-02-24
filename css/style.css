@@ -1,7 +1,7 @@
 html, body{
     margin: 0;
     padding: 0;
-    width: 100%;
+    width: 100;
     box-sizing: border-box;
     font-size: 62.5%;
     background-position: center;
@@ -17,7 +17,7 @@ body{
     border: solid 3.5rem #CC0000;
     align-content: center;
     width: 85%;
-    height: 80%;
+    height: 100%;
     
 }
 
@@ -99,6 +99,11 @@ h2{
     font-size: 22px;
 
 }
+
+p{
+    display: inline-block;
+    font-size: 1.8rem;
+}
     
 
 
@@ -119,15 +124,16 @@ h2{
     display: inline;
 }
 
-.button{
+button{
     background-color: #000080;
     width: 70px;
     height: 40px;
-    
+    display: inline-block;
     
 }
 
 #social{
+    display: block;
     
 }
 
@@ -137,6 +143,9 @@ footer{
     display: block;
     font-size: 12px;
 }
+
+
+
 
 
 
